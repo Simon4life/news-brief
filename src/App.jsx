@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Sidebar from './components/Sidebar'
 import Summary from './pages/article-summary'
 import axios from 'axios';
-import * as cheerio from "cheerio";
+
 function App() {
 
 // const API_KEY = "";
@@ -49,9 +49,6 @@ function App() {
 //   } catch (error) {
 //     console.error("API Error:", error.response ? error.response.data : error.message);
 //   }
-
-
-"https://www.nature.com/articles/d41586-024-00000-x"
 
   return (
   
