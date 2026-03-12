@@ -8,7 +8,7 @@ import axios from 'axios';
 import * as cheerio from "cheerio";
 function App() {
 
-// const API_KEY = "AIzaSyCD4gjEs1WbY83mTfhtDbj8G23WUw7WmeY";
+// const API_KEY = "";
 // const BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 // async function analyzeNewsWithAxios(articleUrl) {
