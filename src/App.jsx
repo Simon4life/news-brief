@@ -3,9 +3,10 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Sidebar from './components/Sidebar'
+import RecentSummary from './components/RecentSummary'
 import Summary from './pages/article-summary'
 import axios from 'axios';
-
+import { Route, Routes } from 'react-router-dom'
 function App() {
 
 // const API_KEY = "";
@@ -51,17 +52,26 @@ function App() {
 //   }
 
   return (
-  
-      <main className='bg-[#f6f6f8]'>
-        <Navbar />
-        <section className='max-w-7xl mx-auto flex flex-col md:flex-row gap-6 px-6 py-10'>
-          <Sidebar/>
-          <Hero/>
-        </section>
-        {/* <Summary /> */}
-        
-        
-      </main>
+    <>
+      <Routes>
+        <Route path='/' element={
+          <main className='bg-[#f6f6f8]'>
+            <section className='max-w-7xl mx-auto flex flex-col md:flex-row gap-6 px-6 py-10'>
+              <Sidebar/>
+              <Hero/>
+            </section>
+          </main>}>
+        </Route>
+      </Routes>
+    </>
+      // <main className='bg-[#f6f6f8]'>
+      //   <Navbar />
+      //   <section className='max-w-7xl mx-auto flex flex-col md:flex-row gap-6 px-6 py-10'>
+      //     <Sidebar/>
+      //     <Hero/>
+      //   </section>
+      //   {/* <Summary /> */} 
+      // </main>
   )
 }
 

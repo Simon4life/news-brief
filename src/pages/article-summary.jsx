@@ -44,9 +44,9 @@ const Summary = () => {
             <div className="bg-white dark:bg-slate-900/50 rounded-2xl p-6 md:p-10 border border-slate-200 dark:border-slate-800 shadow-sm">
             <div className="flex items-center justify-between mb-6">
             <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-            <span className="material-symbols-outlined text-primary">auto_awesome</span>
-                                            AI-Generated Summary
-                                        </h3>
+                <span className="material-symbols-outlined text-primary">auto_awesome</span>
+                AI-Generated Summary
+            </h3>
             <span className="text-xs font-medium text-slate-400 italic">Summarized in 2 seconds</span>
             </div>
             <ul className="space-y-6">
@@ -59,39 +59,39 @@ const Summary = () => {
             <li className="flex gap-4">
             <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold">2</span>
             <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-                                                The new technology utilizes sustainable organic materials, significantly reducing the environmental impact and cost compared to traditional silicon-based panels.
-                                            </p>
+                The new technology utilizes sustainable organic materials, significantly reducing the environmental impact and cost compared to traditional silicon-based panels.
+            </p>
             </li>
             <li class="flex gap-4">
             <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold">3</span>
             <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-                                                Commercial scalability has improved with new thin-film manufacturing processes, potentially allowing panels to be integrated into windows and clothing by late 2025.
-                                            </p>
+                Commercial scalability has improved with new thin-film manufacturing processes, potentially allowing panels to be integrated into windows and clothing by late 2025.
+            </p>
             </li>
             <li class="flex gap-4">
             <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold">4</span>
             <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-                                                The European Union has announced a €500M grant to accelerate the deployment of these next-gen cells across residential districts in Southern Europe.
-                                            </p>
+                The European Union has announced a €500M grant to accelerate the deployment of these next-gen cells across residential districts in Southern Europe.
+            </p>
             </li>
             </ul>
 
             <div className="mt-10 pt-8 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row gap-3">
             <button className="flex-1 flex items-center justify-center gap-2 bg-primary text-white px-6 py-3.5 rounded-xl font-bold hover:opacity-90 transition-all shadow-lg shadow-primary/25">
             <span className="material-symbols-outlined">content_copy</span>
-                                            Copy Summary
-                                        </button>
+                Copy Summary
+            </button>
             <button className="flex-1 flex items-center justify-center gap-2 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 px-6 py-3.5 rounded-xl font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-all">
-            <span className="material-symbols-outlined">share</span>
-                                            Share Article
-                                        </button>
+                <span className="material-symbols-outlined">share</span>
+                Share Article
+            </button>
             <button className="flex items-center justify-center bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 w-14 rounded-xl hover:bg-slate-200 dark:hover:bg-slate-700 transition-all">
             <span className="material-symbols-outlined">more_horiz</span>
             </button>
             </div>
             </div>
 
-                {/* implications section */}
+            {/* implications section */}
             <div className="mt-8 bg-white dark:bg-slate-900/50 rounded-2xl p-6 md:p-10 border border-slate-200 dark:border-slate-800 shadow-sm">
                 <div className="flex items-center justify-between mb-6">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
@@ -109,12 +109,12 @@ const Summary = () => {
                         </p>
                     </li>
                     <li className="flex gap-4">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center">
-                    <span class="material-symbols-outlined text-[14px]">trending_up</span>
-                    </span>
-                    <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                    <span className="font-bold text-slate-900 dark:text-slate-100">Market Shifts:</span> Increased efficiency and lower production costs are expected to disrupt the current energy market, making decentralized solar power grids economically viable for emerging economies.
-                                                    </p>
+                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                        <span class="material-symbols-outlined text-[14px]">trending_up</span>
+                        </span>
+                        <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+                            <span className="font-bold text-slate-900 dark:text-slate-100">Market Shifts:</span> Increased efficiency and lower production costs are expected to disrupt the current energy market, making decentralized solar power grids economically viable for emerging economies.
+                        </p>
                     </li>
                     <li className="flex gap-4">
                         <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center">
